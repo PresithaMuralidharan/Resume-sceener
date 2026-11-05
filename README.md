@@ -1,2 +1,27 @@
-# Resume-sceener
-Developed a Resume Screening AI tool that compares multiple resumes with job descriptions using NLP and machine learning techniques. It extracts skills, education, and experience, uses TF-IDF, cosine similarity, and Sentence Transformers to calculate match scores, identify skill gaps, and rank candidates through an interactive Streamlit dashboard.
+# AI-Powered Resume Screening and Candidate Analytics Platform
+
+An end-to-end platform for intelligent resume screening, candidate ranking, and recruitment analytics.
+
+## Tech Stack
+Python, Pandas, NumPy, Scikit-learn, spaCy, Sentence Transformers, PyPDF, python-docx, Streamlit, PostgreSQL, Power BI, Joblib
+
+## Project Structure
+
+```
+Resume-Screening-AI/
+├── data/               # Raw and processed data
+├── models/             # Saved ML models
+├── notebooks/          # Exploratory analysis notebooks
+├── reports/            # Generated reports and Power BI exports
+├── src/                # All core application modules
+├── tests/              # Unit tests
+├── app.py              # Streamlit dashboard entry point
+├── requirements.txt    # Python dependencies
+└── .gitignore
+```
+
+## Setup
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```

@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*.env
+.env
+venv/
+.venv/
+*.joblib
+*.pkl
+data/resumes/
+data/job_descriptions/
+data/processed/
+models/
+reports/
+.DS_Store
